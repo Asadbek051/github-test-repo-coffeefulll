@@ -1,0 +1,177 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.logo {
+    display: flex;
+    gap: 10px;
+}
+.logo img {
+    height: 36px;
+    width: 236px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.list {
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+    padding: 5px;
+}
+.list-item p {
+    color: #949494;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    cursor: pointer ;
+}
+.list-item p:hover{
+    color: #111111;
+}
+
+.list-item:active {
+    color: rgb(50, 49, 49);
+}
+.back-photo {
+    background-image: url(coffe-images/about-bg.jpg);
+    width: 1280px;
+    height: 450px;
+}
+.text {
+    width: 450px;
+    color: #fff;
+    display: block;
+    align-items: center;
+    height: 200px;
+    padding: 150px;
+}
+.text p {
+    color: #949494;
+    padding-top: 20px;
+}
+.content {
+    display: flex;
+    width: 1110px;
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-bottom: 300px;
+    position: relative;
+}
+.text1 {
+    width: 540px;
+    height: 340px;
+}
+.text1 p {
+    padding-top: 30px;
+    color: #949494;
+}
+.text1 h1 {
+    color: #2C343E;
+}
+.content1 {
+    display: flex;
+    position: relative;
+    background-color: #2C343E;
+    gap: 100px;
+    border-radius: 5px;
+}
+.text2 {
+    width: 540px;
+    height: 300px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.text2 h1 {
+    color: #fff;
+    padding-bottom: 30px;
+}
+.text2 p {
+    color: #949494;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+.content1 img {
+    left: 700px;
+    top: -200px;
+    position: absolute;
+    padding-bottom: 100px;
+}
+.h8 {
+    padding-top: 100px;
+    padding-left: 100px ;
+    padding-bottom: 100px;
+}
+.cards {
+    width: 1045px;
+    height: 366px;
+    display: flex; 
+    gap: 200px;
+    padding-left: 100px;
+}
+.card1 p {
+    padding: 3px;
+    color: #949494;
+}
+.card1 h1 {
+    color: #2C343E;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.footer {
+    display: flex;
+    background-color: #2C343E;
+    width: 1280px;
+    height: 100px;
+    margin-top: 200px;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+.footer img {
+    height: 36px;
+    width: 236px;
+    padding-top: 40px;
+    padding-left: 90px;
+}
+.list1 {
+    display: flex;
+    gap: 40px;
+    
+    padding: 5px;
+}
+.list-item1 p {
+    padding-top: 45px;
+    color: #949494;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    cursor: pointer ;
+}
+.list-item1 p:hover{
+    color: #111111;
+}
+
+.list-item1:active {
+    color: rgb(50, 49, 49);
+}
+.icons {
+    padding-top: 35px;
+    padding-left: 200px;
+}
+
+
+
+
